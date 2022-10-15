@@ -1,0 +1,42 @@
+button{
+  width:150px;
+  height:200px;
+  border-radius:10px;
+  background-color: lightblue;
+  font-size: 100px;
+  color: #fff
+}
+body{
+
+  background-color: red;
+  width: 250px;
+  height: 250px;
+}
+
+h1{
+  text-align: right;
+}
+
+#par {
+  text-align: center;
+  font-size:24px;
+  font-family: sans-serif;
+}
+header .logo {
+  position: absolute;
+  top: 25px;
+}
+
+header nav{
+  position: absolute;
+  top: 110px;
+  font-weight: bold;
+  font-size: 13px;
+  margin-left: 105px;
+  width: 960px;
+}
+
+header nav a {
+  color: #000;
+  text-decoration: none
+}

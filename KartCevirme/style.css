@@ -1,0 +1,28 @@
+figure .card{
+  width:100px;
+  height:130px;
+  position: relative;
+  -webkit-perspective:600;
+}
+
+figure .card img{
+  -webkit-border-radius: 6px;
+}
+
+figure.card img.front{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  width: inherit;
+  height: inherit;
+  -webkit-box-shadow:0 1px 5px #CCC;
+  -webkit-transform-rotateY(0deg);
+  -webkit-transform-style:pereserve-3d;
+  -webkit-backface-visibility:hidden;
+  -webkit-transition:all 0.4s ease-in-out;
+}
+
+fiugre.card:hover img.front{
+  
+}
